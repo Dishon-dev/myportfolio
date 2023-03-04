@@ -20,7 +20,7 @@ navButtonLinks.forEach(link => {
 
 navBtn.addEventListener('click', () => {
     if (!isMenuActive) {
-        const navIconClose = `<i class="fa fa-bars"></i>`;
+        const navIconClose = `<i class="fa fa-times"></i>`;
         navBtn.innerHTML = navIconClose;
         isMenuActive = true;
       } else {
