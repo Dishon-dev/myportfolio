@@ -242,7 +242,8 @@ img {
   .mobile_menu {
     display: flex;
     justify-content: flex-end;
-    padding: 0.6rem;
+    box-shadow: var(--box-shadow);
+    padding: 0.4rem;
   }
 
   .header #menu_btn {
