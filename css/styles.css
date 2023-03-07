@@ -991,3 +991,14 @@ hr{
   }
 
 }
+
+.whatsapp_link {
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  z-index: 9999;
+}
+
+.whatsapp {
+  width: 10rem;
+}
