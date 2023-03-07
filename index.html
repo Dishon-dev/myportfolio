@@ -16,7 +16,43 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<!-- <link rel="icon" href="./images/favicon.ico" /> -->
+
+<!-- <script>
+  var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?23014';
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = url;
+  var options = {
+"enabled":true,
+"chatButtonSetting":{
+    "backgroundColor":"#4dc247",
+    "ctaText":"Contact Me       ",
+    "borderRadius":"25",
+    "marginLeft":"0",
+    "marginBottom":"50",
+    "marginRight":"50",
+    "position":"right"
+},
+"brandSetting":{
+    "brandName":"Polycap Dishon",
+    "brandSubTitle":"",
+    "brandImg":"",
+    "welcomeText":"Hi there!\nHow can I help you?",
+    "messageText":"Hello, I have a question about {{page_link}}",
+    "backgroundColor":"#000000",
+    "ctaText":"Start Chat",
+    "borderRadius":"25",
+    "autoShow":false,
+    "phoneNumber":"254708910911"
+}
+};
+  s.onload = function() {
+      CreateWhatsappChatWidget(options);
+  };
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+</script> -->
 <body>
     <header class="header">
       <div class="mobile_menu">
@@ -410,6 +446,11 @@
           <p class="copyright">&copy; <span id="year"></span>&nbsp;Oppi-Tech. All Rights Reserved. Designed by <a class="mail" href="mailto:dishonpolycap@gmail.com">Polycap Dishon @Oppi-Tech</a></p>
       </footer>
   <!-- Footer End -->
+
+  <!-- click to chat on whatsapp-->
+  <a class="whatsapp_link" aria-label="Contact Me" href="https://api.whatsapp.com/send?phone=254708910911&text=Hello,%20I%20have%20a%20question%20about%20file%3A%2F%2F%2FC%3A%2FDishon%2520polycap%2520Files%2Fweb%2Fmyportfolio%2Findex.html" target="_blank"> 
+    <img class="whatsapp" src="assets/whatsapp roundedchat link.svg" alt="Contact Me" />
+  </a>
 
       <!-- scripts-->
       <script src="./script/app.js"></script>
