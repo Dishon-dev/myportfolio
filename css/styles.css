@@ -995,10 +995,16 @@ hr{
 .whatsapp_link {
   position: fixed;
   bottom: 3rem;
-  right: 2rem;
+  right: 1rem;
   z-index: 9999;
 }
 
 .whatsapp {
   width: 10rem;
+}
+
+@media only screen and (max-width: 476px) {
+  .whatsapp_link {
+    bottom: 3.8rem;
+  }
 }
