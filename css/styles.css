@@ -886,7 +886,7 @@ hr{
   width: 80%;
   border: 0;
   border-bottom: 1px solid var(--clr-white);
-  margin: 1.5rem auto;
+  margin: 1.5rem auto 1rem auto;
 }
 
 .copyright{
@@ -994,17 +994,11 @@ hr{
 
 .whatsapp_link {
   position: fixed;
-  bottom: 3rem;
+  bottom: 0.5rem;
   right: 1rem;
   z-index: 9999;
 }
 
 .whatsapp {
   width: 10rem;
-}
-
-@media only screen and (max-width: 476px) {
-  .whatsapp_link {
-    bottom: 3.8rem;
-  }
 }
