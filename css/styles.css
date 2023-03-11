@@ -719,6 +719,7 @@ img {
 	border-radius: var(--radius-btn);
 	font-size: 0.8rem;
   text-transform: uppercase;
+  transition: var(--transition);
 }
 
 .contact_btn:hover{

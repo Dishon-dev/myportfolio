@@ -101,7 +101,7 @@
     justify-content: center;
     background: #000;
     border-radius: 50%;
-    color: var(--clr-golden);
+    color: var(--clr-white);
     margin-right: 0.5rem;
 }
 
@@ -133,7 +133,7 @@
     justify-content: center;
     border-radius: 50%;
     background: #000;
-    color: var(--clr-golden);
+    color: var(--clr-white);
     margin-right: 1rem;
     transition: var(--transition);
     z-index: 1;
