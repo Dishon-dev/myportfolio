@@ -243,12 +243,12 @@ textarea.input{
     transform: scale(1.2);
 }
 
-.contact-info::before{
+.contact-info::before {
     content: "";
     position: absolute;
     width: 7.5rem;
     height: 7.5rem;
-    border: 1.3rem solid blue;
+    border: 1.3rem solid var(--clr-dark);
     border-radius: 50%;
     right: 3.1rem;
     bottom: -4.8rem;
@@ -288,4 +288,33 @@ textarea.input{
     .input{
         font-size: 0.8rem;
     }
+}
+
+@media only screen and (max-width: 820px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        margin: 2rem auto;
+    }
+
+    .contact-info::before {
+        display: none;
+        top: -4.6rem;
+        right: 4rem;
+        transform: scale(0.95);
+        opacity: 0.1;
+    }
+
+    .contact-form::before{
+        top: -0.8rem;
+        left: initial;
+        right: 4.4rem;
+    }
+
+    .big-circle{
+        display: none;
+        bottom: 75%;
+        transform: scale(0.9) translate(-40%, 30%);
+        right: 50%;
+    }
+
 }
