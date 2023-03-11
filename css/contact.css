@@ -1,5 +1,5 @@
 :root {
-    --box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    --box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
     --clr-dark: #1c232e;
     --clr-white: #fff;
     --clr-golden: hsl(42, 78%, 60%);
