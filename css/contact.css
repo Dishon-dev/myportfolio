@@ -34,7 +34,7 @@
 .contact{position: relative;width: 100%;min-height: 100vh;background: #fff;display: flex;justify-content: center;align-items: center;overflow: hidden;}
 
 .contact_container{
-    width: 90%;
+    width: 96%;
     max-width: 900px;
     background-color: #fff;
     border-radius: var(--radius);
