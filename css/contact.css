@@ -276,3 +276,16 @@ textarea.input{
     top: calc(50% - 180px);
     left: calc(50% - 180px);
 }
+
+@media only screen and (max-width: 900px) {
+    .contact-info .info_title{
+        font-size: var(--font-size);
+    }
+
+    .form_title {
+        font-size: var(--font-size);
+    }
+    .input{
+        font-size: 0.8rem;
+    }
+}
