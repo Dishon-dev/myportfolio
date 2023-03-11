@@ -34,7 +34,7 @@
 .contact{position: relative;width: 100%;min-height: 100vh;background: #fff;display: flex;justify-content: center;align-items: center;overflow: hidden;}
 
 .contact_container{
-    width: 80%;
+    width: 90%;
     max-width: 900px;
     background-color: #fff;
     border-radius: var(--radius);
@@ -324,7 +324,7 @@ textarea.input{
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 280px) {
     .information {
         flex-direction: column;
         align-items: flex-start;
@@ -335,8 +335,8 @@ textarea.input{
     }
 }
 
-@media only screen and (max-width: 260px) {
+@media only screen and (max-width: 238px) {
     .mail {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
